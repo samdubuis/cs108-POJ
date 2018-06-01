@@ -1,0 +1,12 @@
+Second mini projet, 13.12.2015, Samuel Dubuis & Yann Gabbud
+
+Lors de ce projet, aucune modification à l'architecture de base n'a été faite.
+Seules des méthodes getter et setter pour les variables privates de chaque classe ont été rajoutées.
+
+La classe Predator, elle contient deux méthodes en plus. La première s'appelant deplacement() qui permet à tous les
+fantomes de se déplacer de la même manière, car leur case cible est donnée en attribut. Et la deuxième findBestDirection()
+qui permet de calculer quelle direction (donné en tableau comme attribut) est la plus courte par rapport à la case cible.
+
+La classe Prey contient une méthode move2() permettant au PacMan de se déplacer aléatoirement, sauf en direction d'un
+fantôme si un venait à être en face de lui. Le retour sur lui-même lui est accordé pour lui donner plus de chance de survivre.
+Les modifications concernant la méthode de déplacement de PacMan ont aussi été faites dans la classe PacMan.
